@@ -1,7 +1,8 @@
 name: xapptor_db
 description: "A new Flutter package project."
+# repository: https://github.com/Xapptor/xapptor_community
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 version: 0.0.1
-homepage:
 
 environment:
   sdk: ^3.5.1
@@ -10,6 +11,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+
+  firebase_core: ^3.4.0
+  cloud_firestore: ^5.3.0
 
 dev_dependencies:
   flutter_test:
